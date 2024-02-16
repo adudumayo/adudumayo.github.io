@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        html {
+            background-image: url('https://picsum.photos/id/430/200/300?blur&grayscale');
+            background-size: cover;
+        }
+        
+        body {
+            font-family: 'Iceland';
+            font-size: 25px;
+            margin: 0;
+            padding: 0;
+            color: #1F3044;
+        }
+    
+        header {
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    
+        h1, h2, h3 {
+            color: #007BFF;
+        }
+    
+        section {
+            padding: 20px;
+            margin: 20px; 
+        }
+    
+        .section_heading {
+            text-align: center;
+        }
+    
+        #top_projects, #mid_projects {
+            display: flex;
+        }
+    
+        .top_project, .mid_project {
+            padding: 20px;
+            margin: 20px;
+            background-color: #f0eeec;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            transition: all .5s ease-in-out;
+        }
+    
+        .top_project:hover, .mid_project:hover  {
+            transform: scale(1.1);
+        }
+
+        #credits {
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            transition: all .5s ease-in-out;
+        }
+
+        .fa:hover {
+            transform: scale(2);
+        }
+
+        .fa{
+            color: #007BFF;
+        }
+            
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-image: linear-gradient(#646C79, #1F3044);
+            color: #fff;
+        }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet'>
+        <script src="jquery-3.7.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".top_project, .mid_project").on(
+                    {
+                        mouseenter: function(){
+                            $(this).css("background-color", "#c2c1bb");
+                        },
+                        mouseleave: function(){
+                            $(this).css("background-color", "#f0eeec");
+                        }
+                    }
+                )
+            });
+        </script>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <h1>Asimanye (Dumzarovič) Dudumayo</h1>
+            <p style="font-size: 40px; color: black;">Software Developer</p>
+        </header>
+
+        <section id="about_me">
+            <p>
+                Greetings! I'm <strong>Dumzarovič</strong>, a dynamic software developer
+                specializing in full-stack development, I excel in <strong>Python, Java, JavaScript, HTML5, CSS3, and Git</strong>.
+                Explore my projects to witness how I navigate uncharted territories, turning challenges into growth opportunities.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2 class="section_heading">Projects</h2>
+            <div id="top_projects">
+                <div class="top_project">
+                    <p class="proj_name">Project name</p>
+                    <hr>
+                    <p class="proj_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error neque consequuntur expedita odio animi at amet? Sapiente, rem pariatur? Debitis illo quas voluptatem itaque ad laudantium animi soluta voluptate ipsam!</p>
+                </div>
+
+                <div class="top_project">
+                    <p class="proj_name">Project name</p>
+                    <hr>
+                    <p class="proj_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem placeat quam, optio tenetur amet quos, cumque qui enim illo fugit doloremque officia sint consectetur dicta blanditiis, sed accusamus vel est!</p>
+                </div>
+
+                <div class="top_project">
+                    <p class="proj_name">Project name</p>
+                    <hr>
+                    <p class="proj_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nesciunt animi! Praesentium eos ipsam exercitationem doloribus vitae animi modi eaque suscipit laudantium ab aliquid accusamus adipisci, quis quidem laborum esse.</p>
+                </div>
+
+                <div class="top_project">
+                    <p class="proj_name">Project name</p>
+                    <hr>
+                    <p class="proj_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet hic nihil eaque iste esse ratione inventore! At dignissimos quis ipsam, voluptates excepturi sint ex nobis est molestiae tenetur necessitatibus temporibus.</p>
+                </div>
+            </div>
+
+            <div id="mid_projects">
+                <div class="mid_project">
+                    <p class="proj_name">Project name</p>
+                    <hr>
+                    <p class="proj_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tenetur voluptate excepturi ratione esse ipsa, temporibus perferendis libero amet unde aut praesentium numquam similique exercitationem, obcaecati quia tempora molestias pariatur.</p>
+                </div>
+
+                <div class="mid_project">
+                    <p class="proj_name">Project name</p>
+                    <hr>
+                    <p class="proj_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quidem? Magnam magni animi odit? Fugit assumenda possimus, iste quia quibusdam reiciendis officia ipsum quam aliquam quo cumque adipisci eligendi dolor!</p>
+                </div>
+
+                <div class="mid_project">
+                    <p class="proj_name">Project name</p>
+                    <hr>
+                    <p class="proj_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum molestias explicabo deserunt quaerat, repudiandae et accusantium exercitationem, expedita quia iusto assumenda nam repellendus voluptatem tenetur. Cupiditate inventore fuga ratione tempora.</p>
+                </div>
+
+                <div class="mid_project">
+                    <p class="proj_name">Project name</p>
+                    <hr>
+                    <p class="proj_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos aspernatur impedit tenetur unde fugit quidem minima officiis debitis, in non soluta quae assumenda nobis eaque cupiditate quo dolores perspiciatis?</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="credits">
+            <div id="socials">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Dumzarovič - Software Developer   |   dasimanye@gmail.com     |   073 220 3325</p>
+        </footer>
+
+    </body>
+</html>
