@@ -1,9 +1,6 @@
 html {
     background-color: #e2e2ee;
     background-image: radial-gradient(at 47% 33%, hsl(203.08, 84%, 85%) 0, transparent 59%), radial-gradient(at 82% 65%, hsl(203.84, 74%, 81%) 0, transparent 55%);
-    /*
-    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
-    background-size: cover;*/
 }
 
 body {
@@ -40,10 +37,13 @@ section {
 .top_project, .mid_project {
     padding: 20px;
     margin: 20px;
-    background-color: #f0eeec;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
     transition: all .5s ease-in-out;
+    backdrop-filter: blur(18px) saturate(48%);
+    -webkit-backdrop-filter: blur(18px) saturate(48%);
+    background-color: rgba(204, 230, 244, 0.19);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 .top_project:hover, .mid_project:hover  {
