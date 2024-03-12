@@ -42,7 +42,7 @@ section {
     backdrop-filter: blur(18px) saturate(48%);
     -webkit-backdrop-filter: blur(18px) saturate(48%);
     background-color: rgba(204, 230, 244, 0.19);
-    border-radius: 16px;
+    border-radius: 18px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
