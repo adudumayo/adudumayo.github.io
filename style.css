@@ -39,8 +39,8 @@ section {
     margin: 20px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     transition: all .5s ease-in-out;
-    backdrop-filter: blur(18px) saturate(62%);
-    -webkit-backdrop-filter: blur(18px) saturate(62%);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     background-color: rgba(204, 230, 244, 0.19);
     border-radius: 18px;
     border: 1px solid rgba(255, 255, 255, 0.125);
