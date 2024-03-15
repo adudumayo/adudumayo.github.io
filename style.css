@@ -1,6 +1,5 @@
 html {
-    background-color: #e2e2ee;
-    background-image: radial-gradient(at 47% 33%, hsl(203.08, 84%, 85%) 0, transparent 59%), radial-gradient(at 82% 65%, hsl(203.84, 74%, 81%) 0, transparent 55%);
+    background-image: radial-gradient(at 50% 50%, hsl(203.08, 20%, 70%) 0, transparent 59%);
 }
 
 body {
