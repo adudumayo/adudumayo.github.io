@@ -1,5 +1,8 @@
 html {
-    background-image: radial-gradient(at 50% 50%, hsl(203.08, 20%, 70%) 0, transparent 59%);
+    background-image: url(https://picsum.photos/seed/picsum/200/300?blur);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 body {
