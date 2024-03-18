@@ -36,6 +36,13 @@ section {
     display: flex;
 }
 
+@media (max-width: 767px) {
+    #top_projects, #mid_projects {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .top_project, .mid_project {
     padding: 20px;
     margin: 20px;
