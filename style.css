@@ -29,7 +29,7 @@ section {
 }
 
 #mobile_about_me {
-    visibility: hidden;
+    display: none;
 }
 
 .section_heading {
@@ -97,10 +97,10 @@ footer {
     }
 
     #about_me {
-        visibility: hidden;
+        display: none;
     }
 
     #mobile_about_me {
-        visibility: visible;
+        display: block;
     }
 }
