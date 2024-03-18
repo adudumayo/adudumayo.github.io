@@ -28,19 +28,16 @@ section {
     margin: 20px; 
 }
 
+#mobile_about_me {
+    display: none;
+}
+
 .section_heading {
     text-align: center;
 }
 
 #top_projects, #mid_projects {
     display: flex;
-}
-
-@media (max-width: 767px) {
-    #top_projects, #mid_projects {
-        display: flex;
-        flex-direction: column;
-    }
 }
 
 .top_project, .mid_project {
@@ -87,4 +84,23 @@ footer {
     padding: 10px;
     background-image: linear-gradient(#646C79, #1F3044);
     color: #fff;
+}
+
+/* Mobile configuration */
+
+@media (max-width: 767px) {
+
+    #top_projects,
+    #mid_projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about_me {
+        display: none;
+    }
+
+    #mobile_about_me {
+        display: block;
+    }
 }
