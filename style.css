@@ -36,11 +36,11 @@ section {
     text-align: center;
 }
 
-#top_projects, #mid_projects {
+#top_projects {
     display: flex;
 }
 
-.top_project, .mid_project {
+.top_project {
     padding: 20px;
     margin: 20px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
@@ -51,7 +51,7 @@ section {
     border-radius: 16px;
 }
 
-.top_project:hover, .mid_project:hover  {
+.top_project:hover {
     transform: scale(1.1);
 }
 
