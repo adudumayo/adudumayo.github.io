@@ -76,6 +76,7 @@ footer {
     padding: 10px;
     background-image: linear-gradient(#646C79, #1F3044);
     color: #fff;
+    border-radius: 20px;
 }
 
 /* Mobile configuration */
