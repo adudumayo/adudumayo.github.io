@@ -44,6 +44,10 @@ section {
     border-radius: 16px;
 }
 
+#other_gh_projects {
+    text-align: center;
+}
+
 .top_project:hover {
     transform: scale(1.1);
 }
