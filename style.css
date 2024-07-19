@@ -46,6 +46,7 @@ section {
 
 #other_gh_projects {
     text-align: center;
+    color: red;
 }
 
 .top_project:hover {
