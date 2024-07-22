@@ -4,15 +4,11 @@ Welcome to Dumzarovič's portfolio repository! Here, you'll find a showcase of m
 
 ## About Me
 
-Hi there! I'm Dumzarovič, a passionate software developer based in Durban, South Africa. With a keen interest in low-level programming and a knack for web design and development, I'm on a mission to make an impact in the tech world. From coding to challenging myself with advanced subjects like mathematics and computer science, I'm always ready to learn and grow.
+Hi there! I'm Dumzarovič, a passionate software developer based in Durban, South Africa...
 
 ## Projects
 
-Explore my projects to witness my journey in the world of software development. Each project represents a unique challenge and an opportunity for growth. Here are a few highlights:
-
-- **Project 1**: Description of project 1.
-- **Project 2**: Description of project 2.
-- **Project 3**: Description of project 3.
+Explore my projects to witness my journey in the world of software development...
 
 ## Skills
 
@@ -22,16 +18,13 @@ As a full-stack developer, I'm proficient in a variety of programming languages,
 - Java
 - JavaScript
 - HTML5/CSS3
+- Bash
 - Git
-- [Add more skills as needed]
-
-## How to Use
-
-To explore my portfolio, simply clone this repository and open it in your preferred code editor. From there, you can navigate through the projects, check out my skills, and learn more about me.
-
+- Docker
+  
 ## Contact Me
 
-I'm always open to collaboration and new opportunities. Feel free to reach out to me via email at [your.email@example.com](mailto:your.email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/dumzarovic/).
+I'm always open to collaboration and new opportunities. Feel free to reach out to me via email at dasimanye@gmail.com
 
 ## License
 
