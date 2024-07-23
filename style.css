@@ -44,6 +44,10 @@ section {
     border-radius: 16px;
 }
 
+.proj_description {
+    filter: blur(8px)
+}
+
 .top_project:hover {
     transform: scale(1.1);
 }
