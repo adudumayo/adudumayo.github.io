@@ -44,7 +44,7 @@ section {
     border-radius: 16px;
 }
 
-.proj_description {
+.proj_description, img {
     filter: blur(8px)
 }
 
