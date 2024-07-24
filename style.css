@@ -10,10 +10,12 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    border: red solid;
 }
 
 #about_me {
     text-align: center;
+    border: red solid;
 }
 
 h1, h2, h3 {
@@ -23,6 +25,7 @@ h1, h2, h3 {
 section {
     padding: 20px;
     margin: 20px; 
+    border: red solid;
 }
 
 #mobile_about_me {
@@ -35,6 +38,7 @@ section {
 
 #top_projects {
     display: flex;
+    border: red solid;
 }
 
 .top_project {
