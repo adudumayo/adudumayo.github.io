@@ -49,6 +49,17 @@ section {
     border-radius: 16px;
 }
 
+.img_container {
+    border: 1px solid #007BFF;
+    border-radius: 80px 0px 80px 0px;
+}
+
+.responsive_img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 80px 0px 80px 0px;
+}
 /* .proj_description, img {
     filter: blur(8px);
 } */
