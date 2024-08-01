@@ -49,9 +49,9 @@ section {
     border-radius: 16px;
 }
 
-.proj_description, img {
+/* .proj_description, img {
     filter: blur(8px);
-}
+} */
 
 .top_project:hover {
     transform: scale(1.1);
