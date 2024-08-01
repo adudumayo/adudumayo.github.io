@@ -66,6 +66,7 @@ section {
 
 .top_project:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 #credits {
