@@ -46,7 +46,7 @@ section {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     background-color: rgba(204, 230, 244, 0.01);
-    border-radius: 16px;
+    border-radius: 16px 0px 100px 0px;
 }
 
 .img_container {
