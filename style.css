@@ -60,9 +60,6 @@ section {
     display: block;
     border-radius: 80px 0px 80px 0px;
 }
-/* .proj_description, img {
-    filter: blur(8px);
-} */
 
 .top_project:hover {
     transform: scale(1.1);
