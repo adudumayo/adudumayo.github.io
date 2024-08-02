@@ -47,11 +47,24 @@ section {
     -webkit-backdrop-filter: blur(5px);
     background-color: rgba(204, 230, 244, 0.01);
     border-radius: 16px 0px 100px 0px;
+    animation: jiggle 4s infinite;
+}
+
+@keyframes jiggle {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-0.5deg); }
+    50% { transform: rotate(0.5deg); }
+    75% { transform: rotate(-0.5deg); }
+    100% { transform: rotate(0deg); }
 }
 
 .img_container {
     border: 1px solid #007BFF;
     border-radius: 80px 0px 80px 0px;
+}
+
+.top_project:hover {
+    animation: none;
 }
 
 .responsive_img {
