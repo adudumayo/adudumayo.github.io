@@ -43,11 +43,14 @@ section {
     margin: 20px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     transition: all .5s ease-in-out;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     background-color: rgba(204, 230, 244, 0.01);
     border-radius: 16px 0px 100px 0px;
-    animation: jiggle 4s infinite;
+    /* animation: jiggle 4s infinite; */
+}
+
+.proj_description {
+    text-align: right;
+    text-shadow: 2px 0px #007BFF;
 }
 
 @keyframes jiggle {
