@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #1F3044;
-    background-color: rgb(201, 189, 180);
+    background-color: rgb(250, 235, 228);
 }
 
 header {
@@ -46,7 +46,7 @@ section {
     transition: all .5s ease-in-out;
     background-color: #7d8dac69;
     border-radius: 16px 0px 100px 0px;
-    animation: jiggle 12s infinite;
+    animation: jiggle 1s infinite;
 }
 
 .proj_description {
@@ -56,10 +56,16 @@ section {
 
 @keyframes jiggle {
     0% { transform: rotate(0deg); }
-    25% { transform: rotate(-2deg); }
-    50% { transform: rotate(2deg); }
-    75% { transform: rotate(-2deg); }
-    100% { transform: rotate(0deg); }
+    10% { transform: rotate(0.2deg); }
+    20% { transform: rotate(-0.2deg); }
+    30% { transform: rotate(0.2deg); }
+    40% { transform: rotate(-0.2deg); }
+    50% { transform: rotate(0.2deg); }
+    60% { transform: rotate(-0.2deg); }
+    70% { transform: rotate(0.2deg); }
+    80% { transform: rotate(-0.2deg); }
+    90% { transform: rotate(0.2deg); }
+    100% { transform: rotate(-0.2deg); }
 }
 
 .img_container {
