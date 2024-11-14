@@ -9,21 +9,18 @@ body {
 
 header {
     color: #fff;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
 #about_me {
     text-align: center;
+    padding-bottom: 15px;
+    margin: 10px;
 }
 
 h1, h2, h3 {
     color: #007BFF;
-}
-
-section {
-    padding: 20px;
-    margin: 20px; 
 }
 
 #mobile_about_me {
@@ -138,4 +135,28 @@ footer {
     #mobile_about_me {
         display: block;
     }
+}
+
+#about_me {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent; }
 }
