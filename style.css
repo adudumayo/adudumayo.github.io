@@ -12,12 +12,6 @@ header {
     text-align: center;
 }
 
-#about_me {
-    text-align: center;
-    padding-bottom: 15px;
-    margin: 10px;
-}
-
 h1, h2, h3 {
     color: #007BFF;
 }
@@ -65,7 +59,6 @@ h1, h2, h3 {
 }
 
 .img_container {
-    /* border: 1px solid #007BFF; */
     border: 1px solid black;
     border-radius: 80px 0px 80px 0px;
 }
