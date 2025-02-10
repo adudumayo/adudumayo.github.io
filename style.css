@@ -109,7 +109,7 @@ h1, h2, h3 {
 footer {
     text-align: center;
     padding: 10px;
-    background-image: linear-gradient(#ffffff00, #7d8dac69);
+   /* background-image: linear-gradient(#ffffff00, #7d8dac69);*/
     color: #007BFF;
     border-radius: 6px 6px 0px 0px;
 }
