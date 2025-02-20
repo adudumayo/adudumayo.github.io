@@ -17,6 +17,17 @@
                     }
                 )
             });
+
+            $(document).ready(function(){
+                $(".smb").on(
+                    {
+                        click: function(){
+                            window.open("https://github.com/adudumayo/school-management-backend", "_blank");
+                        }
+                    },
+                )
+            });
+
         </script>
         <title>Dumza's Portfolio</title>
     </head>
@@ -43,7 +54,7 @@
         <section id="projects">
             <h2 class="section_heading">Projects</h2>
             <div id="top_projects">
-                <div class="top_project">
+                <div class="top_project smb">
                     <p class="proj_name">School Management Backend (WIP)</p>
                     <hr>
                     <p class="proj_description">Golang with MySql</p>
